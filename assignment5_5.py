@@ -19,7 +19,7 @@ def Factorial(no):
 def main():
     no=int(input("Enter the number = "))
     if no==0:
-        print("factorial is 0")
+        print("factorial is 1")
     else:   
         ans=Factorial(no)
         print("factorial is =",ans)
